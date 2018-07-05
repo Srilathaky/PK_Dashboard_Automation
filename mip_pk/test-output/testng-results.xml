@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="555781" started-at="2018-07-03T10:28:54Z" finished-at="2018-07-03T10:38:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="555781" started-at="2018-07-03T10:28:54Z" finished-at="2018-07-03T10:38:09Z">
+      <class name="com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test">
+        <test-method status="PASS" signature="test_setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="test_setup" is-config="true" duration-ms="301182" started-at="2018-07-03T15:58:54Z" finished-at="2018-07-03T16:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_setup -->
+        <test-method status="PASS" signature="changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="changeCoverLevel" duration-ms="44535" started-at="2018-07-03T16:03:56Z" data-provider="changeCoverLevel" finished-at="2018-07-03T16:04:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MIP_WebPortal_TC_ChangeCoverLevel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jazz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03020016500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PREP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PKR 1,000,000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jazz]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cust]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2131000568501]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[18/06/1980]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Mother]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ben]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[03026566002]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[The customer has been registered successfully. ]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[PKR 400000]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[The customer cover level has been updated successfully. Click here to go back]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCoverLevel -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="after_test" is-config="true" duration-ms="1" started-at="2018-07-03T16:04:40Z" finished-at="2018-07-03T16:04:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCoverLevel status=SUCCESS method=MIP_ChangeCoverLevel_Test.changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="changeCoverLevel" duration-ms="36423" started-at="2018-07-03T16:04:40Z" data-provider="changeCoverLevel" finished-at="2018-07-03T16:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MIP_WebPortal_TC_ChangeCoverLevel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jazz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03020016501]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PREP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PKR 200,000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jazz]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cust]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2131000568502]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Mother]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ben]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[03026566002]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[The customer has been registered successfully. ]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[PKR 1000000]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[The customer cover level has been updated successfully. Click here to go back]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCoverLevel -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="after_test" is-config="true" duration-ms="0" started-at="2018-07-03T16:05:17Z" finished-at="2018-07-03T16:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCoverLevel status=SUCCESS method=MIP_ChangeCoverLevel_Test.changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="changeCoverLevel" duration-ms="39834" started-at="2018-07-03T16:05:17Z" data-provider="changeCoverLevel" finished-at="2018-07-03T16:05:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MIP_WebPortal_TC_ChangeCoverLevel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Warid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03020016502]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PREP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PKR 400,000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jazz]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cust]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2131000568503]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Father]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ben]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[03026566002]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[The customer has been registered successfully. ]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[PKR 200000]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[The customer cover level has been updated successfully. Click here to go back]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCoverLevel -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="after_test" is-config="true" duration-ms="1" started-at="2018-07-03T16:05:56Z" finished-at="2018-07-03T16:05:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCoverLevel status=SUCCESS method=MIP_ChangeCoverLevel_Test.changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="changeCoverLevel" duration-ms="36280" started-at="2018-07-03T16:05:56Z" data-provider="changeCoverLevel" finished-at="2018-07-03T16:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MIP_WebPortal_TC_ChangeCoverLevel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Warid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03020016503]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PREP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PKR 1,000,000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jazz]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cust]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2131000568504]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[18/06/1990]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Father]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ben]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[03026566002]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[The customer has been registered successfully. ]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[PKR 400000]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[The customer cover level has been updated successfully. Click here to go back]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCoverLevel -->
+        <test-method status="PASS" signature="changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="changeCoverLevel" duration-ms="42020" started-at="2018-07-03T16:06:33Z" data-provider="changeCoverLevel" finished-at="2018-07-03T16:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MIP_WebPortal_TC_ChangeCoverLevel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Warid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03020016504]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PKR 200,000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jazz]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cust]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2131000568505]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Father]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ben]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[03026566002]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[The customer has been registered successfully. ]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[PKR 1000000]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[The customer cover level has been updated successfully. Click here to go back]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCoverLevel -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="after_test" is-config="true" duration-ms="0" started-at="2018-07-03T16:06:33Z" finished-at="2018-07-03T16:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCoverLevel status=SUCCESS method=MIP_ChangeCoverLevel_Test.changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="after_test" is-config="true" duration-ms="0" started-at="2018-07-03T16:07:15Z" finished-at="2018-07-03T16:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCoverLevel status=SUCCESS method=MIP_ChangeCoverLevel_Test.changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="changeCoverLevel" duration-ms="35589" started-at="2018-07-03T16:07:15Z" data-provider="changeCoverLevel" finished-at="2018-07-03T16:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MIP_WebPortal_TC_ChangeCoverLevel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Warid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03020016505]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PKR 400,000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jazz]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cust]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2131000568506]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[18/06/1990]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Father]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ben]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[03026566002]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[The customer has been registered successfully. ]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[PKR 2000000]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[The customer cover level has been updated successfully. Click here to go back]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCoverLevel -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="after_test" is-config="true" duration-ms="1" started-at="2018-07-03T16:07:50Z" finished-at="2018-07-03T16:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCoverLevel status=SUCCESS method=MIP_ChangeCoverLevel_Test.changeCoverLevel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="tear_down(java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="tear_down" is-config="true" duration-ms="19003" started-at="2018-07-03T16:07:50Z" finished-at="2018-07-03T16:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

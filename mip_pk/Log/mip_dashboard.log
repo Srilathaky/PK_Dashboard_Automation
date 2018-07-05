@@ -1,0 +1,573 @@
+2018-07-03 15:58:55 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-03 15:59:39 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-03 15:59:42 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-03 15:59:42 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-03 15:59:44 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-03 15:59:44 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-03 15:59:46 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-03 15:59:46 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-03 15:59:46 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-03 15:59:47 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-03 16:03:54 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-03 16:03:54 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-03 16:03:54 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-03 16:03:55 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-03 16:03:55 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-03 16:03:56 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-03 16:03:56 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-03 16:03:58 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016500
+2018-07-03 16:03:59 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:03:59 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:04:03 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:04:03 INFO  MIP_RegisterCustomerPage:37 - Entering the customer information:fname=jazz,snamecust,age=,= gender=Female, dob=18/06/1980,custNIC=2131000568501
+2018-07-03 16:04:04 INFO  MIP_RegisterCustomerPage:355 - Selecting DOB in Customer Registration Page
+2018-07-03 16:04:05 INFO  MIP_RegisterCustomerPage:52 - Entered the customer information
+2018-07-03 16:04:06 INFO  MIP_CustomerManagementPage:76 - Selecting  offer Bima Accident Protection
+2018-07-03 16:04:07 INFO  MIP_CustomerManagementPage:89 - Selected the offer Bima Accident Protection
+2018-07-03 16:04:07 INFO  MIP_RegisterCustomerPage:80 - Selecting Bima Life Benefit Level as PKR 1,000,000
+2018-07-03 16:04:08 INFO  MIP_RegisterCustomerPage:83 - Selected Bima Life Benefit Level as PKR 1,000,000
+2018-07-03 16:04:08 INFO  MIP_RegisterCustomerPage:101 - Entering the customer Beneficiary information:relationship=Mother,fname=prepaid,sname=ben,age=26,ben_gender=Female,ben_msisdn=03026566002
+2018-07-03 16:04:08 INFO  MIP_RegisterCustomerPage:123 - Entered the customer Beneficiary information
+2018-07-03 16:04:08 INFO  MIP_CustomerManagementPage:115 - Clicking on Save button in Customer Registration page
+2018-07-03 16:04:14 INFO  MIP_RegisterCustomer_Queries:29 - Executing getCustomerDetails query
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:208 - Expected and found cust fname:DB Cust Fname=jazz and Input Cust Fname=jazz
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:213 - Expected and found cust_sname:DB cust_sname=cust and Input cust_sname=cust
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:226 - Expected and found  cust_dob:DB cust_dob=18/06/1980 and Input cust_dob=18/06/1980
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:234 - Expected and found cust cust_gender:DB cust_gender=Female and Input cust_gender=Female
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:239 - Expected and found ben_fname:DB ben_fname=prepaid and ben_fname=prepaid
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:244 - Expected and found ben_sname:DB ben_sname=ben and Input ben_sname=ben
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:249 - Expected and found ben_age:DB ben_age=26 and Input ben_age=26
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:254 - Expected and found cust_relationship:DB cust_relationship=Mother and Input cust_relationship=Mother
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:261 - Expected and found ben_gender:DB ben_gender =Female and Input ben_gender=Female
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:267 - Expected and found ben_msisdn:DB ben_msisdn =03026566002 and Input ben_msisdn=03026566002
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:274 - Expected and found NIC:DB NIC number=2131000568501 and Input cust_NIC=2131000568501
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:289 - Expected and found Created By:DB Created By=DASHBOARD and Input Created By=DASHBOARD
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:294 - Expected and found Registered Date:DB Modified Date=2018-07-03 16:04:35 and Registered Date=2018-07-03
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:308 - Expected and found Prepost Status:DB Prepost Status =1 and Input Prepost Status=1
+2018-07-03 16:04:16 INFO  MIP_ChangeCoverLevel_Test:320 - Expected and found is_Warid Status:DB is_Warid =0 and Input is_warid status=0
+2018-07-03 16:04:16 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016500
+2018-07-03 16:04:16 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:04:16 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:04:18 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:04:18 INFO  MIP_RegisterCustomer_Queries:89 - Executing getRegisteredProduct query
+2018-07-03 16:04:27 INFO  MIP_RegisterCustomerPage:129 - Getting Registered offer of the customer
+2018-07-03 16:04:27 INFO  MIP_RegisterCustomerPage:171 - Getting the customer information from Register Customer Page
+2018-07-03 16:04:27 INFO  MIP_RegisterCustomerPage:193 - Getting the Beneficiary information from Register Customer Page
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:336 - Expected and found cust_fname:DB cust_fname=jazz and Dashboard Customer fname=jazz
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:342 - Expected and found cust_sname:DB cust_sname=cust and Dashboard cust_sname=cust
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:357 - Expected and found cust_dob:DB cust_age=18/06/1980 and Dashboard cust_age=18/06/1980
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:364 - Expected and found cust_gender:DB cust_gender=Female and Dashboard cust_gender=Female
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:371 - Expected and found NIC:DB NIC number=2131000568501 and Dashboard cust_NIC=2131000568501
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:379 - Expected and found ben_fname:DB ben_fname=prepaid and Dashboard ben_fname=prepaid
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:385 - Expected and found ben_sname:DB ben_sname=ben and Dashboard ben_sname=ben
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:391 - Expected and found ben_age:DB ben_age=26 and Dashboard ben_age=26
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:397 - Expected and found cust_relationship:DB cust_relationship=Mother and Dashboard cust_relationship=Mother
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:405 - Expected and found ben_msisdn:DB ben_msisdn=03026566002 and Dashboard ben_msisdn=03026566002
+2018-07-03 16:04:27 INFO  MIP_ChangeCoverLevel_Test:411 - Expected and found ben_gender:DB ben_gender=Female and Dashboard ben_gender=Female
+2018-07-03 16:04:27 INFO  MIP_RegisterCustomerPage:146 - Getting Registered offer of the customer
+2018-07-03 16:04:27 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:04:30 INFO  MIP_ChangeCoverLevel_Test:426 - Expected and found life benefit_level:Input benefit_level=1000000 and Dashboard benefit_level=PKR 1000000
+2018-07-03 16:04:30 INFO  MIP_RegisterCustomer_Queries:131 - Executing getRegistrationSMS query
+2018-07-03 16:04:30 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:04:31 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-03 16:04:31 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-03 16:04:32 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016500
+2018-07-03 16:04:32 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:04:32 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:04:33 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:04:33 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:04:34 INFO  MIP_ChangeCoverLevelPage:70 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-03 16:04:35 INFO  MIP_CustomerManagementPage:152 - Clicking on Save Changes button
+2018-07-03 16:04:35 INFO  MIP_CustomerManagementPage:154 - Clicked on Save Changes button
+2018-07-03 16:04:36 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016500
+2018-07-03 16:04:36 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:04:36 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:04:36 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:04:36 INFO  MIP_ChangeCoverLevelPage:91 - Getiing Bima Accident protection cover level info in Update Cover Level Page
+2018-07-03 16:04:38 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:04:39 INFO  MIP_UpdateCoverLevel_Queries:46 - Executing checkRecordExistAfterDereg query
+2018-07-03 16:04:39 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:04:40 INFO  MIP_ChangeCoverLevel_Test:742 - Updated Offer Level: In Offer_Subscription=400000 Input Update Cover Level=PKR 400000
+2018-07-03 16:04:40 INFO  MIP_ChangeCoverLevel_Test:748 - Current Cover Level After Cover Change in Change Cover Level Page: In Dashboard= 400000 Input Update Cover Level=PKR 400000
+2018-07-03 16:04:40 INFO  MIP_UpdateCoverLevel_Queries:101 - Executing getChangeCoverLevelSMS query
+2018-07-03 16:04:40 INFO  MIP_ChangeCoverLevel_Test:762 - Expected and Found SMS:Expected=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 1000000 say 400000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein. Found SMS=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 1000000 say 400000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein.
+2018-07-03 16:04:40 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-03 16:04:40 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-03 16:04:42 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016501
+2018-07-03 16:04:42 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:04:42 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:04:43 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:04:43 INFO  MIP_RegisterCustomerPage:37 - Entering the customer information:fname=jazz,snamecust,age=26,= gender=Female, dob=,custNIC=2131000568502
+2018-07-03 16:04:45 INFO  MIP_RegisterCustomerPage:52 - Entered the customer information
+2018-07-03 16:04:46 INFO  MIP_CustomerManagementPage:76 - Selecting  offer Bima Accident Protection
+2018-07-03 16:04:46 INFO  MIP_CustomerManagementPage:89 - Selected the offer Bima Accident Protection
+2018-07-03 16:04:46 INFO  MIP_RegisterCustomerPage:80 - Selecting Bima Life Benefit Level as PKR 200,000
+2018-07-03 16:04:47 INFO  MIP_RegisterCustomerPage:83 - Selected Bima Life Benefit Level as PKR 200,000
+2018-07-03 16:04:47 INFO  MIP_RegisterCustomerPage:101 - Entering the customer Beneficiary information:relationship=Mother,fname=prepaid,sname=ben,age=27,ben_gender=Female,ben_msisdn=03026566002
+2018-07-03 16:04:47 INFO  MIP_RegisterCustomerPage:123 - Entered the customer Beneficiary information
+2018-07-03 16:04:47 INFO  MIP_CustomerManagementPage:115 - Clicking on Save button in Customer Registration page
+2018-07-03 16:04:49 INFO  MIP_RegisterCustomer_Queries:29 - Executing getCustomerDetails query
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:208 - Expected and found cust fname:DB Cust Fname=jazz and Input Cust Fname=jazz
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:213 - Expected and found cust_sname:DB cust_sname=cust and Input cust_sname=cust
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:219 - Expected and found  cust_age:DB cust_age=26 and Input cust_age=26
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:234 - Expected and found cust cust_gender:DB cust_gender=Female and Input cust_gender=Female
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:239 - Expected and found ben_fname:DB ben_fname=prepaid and ben_fname=prepaid
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:244 - Expected and found ben_sname:DB ben_sname=ben and Input ben_sname=ben
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:249 - Expected and found ben_age:DB ben_age=27 and Input ben_age=27
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:254 - Expected and found cust_relationship:DB cust_relationship=Mother and Input cust_relationship=Mother
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:261 - Expected and found ben_gender:DB ben_gender =Female and Input ben_gender=Female
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:267 - Expected and found ben_msisdn:DB ben_msisdn =03026566002 and Input ben_msisdn=03026566002
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:274 - Expected and found NIC:DB NIC number=2131000568502 and Input cust_NIC=2131000568502
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:289 - Expected and found Created By:DB Created By=DASHBOARD and Input Created By=DASHBOARD
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:294 - Expected and found Registered Date:DB Modified Date=2018-07-03 16:05:12 and Registered Date=2018-07-03
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:308 - Expected and found Prepost Status:DB Prepost Status =1 and Input Prepost Status=1
+2018-07-03 16:04:52 INFO  MIP_ChangeCoverLevel_Test:320 - Expected and found is_Warid Status:DB is_Warid =0 and Input is_warid status=0
+2018-07-03 16:04:52 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016501
+2018-07-03 16:04:52 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:04:52 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:04:53 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:04:53 INFO  MIP_RegisterCustomer_Queries:89 - Executing getRegisteredProduct query
+2018-07-03 16:05:00 INFO  MIP_RegisterCustomerPage:129 - Getting Registered offer of the customer
+2018-07-03 16:05:00 INFO  MIP_RegisterCustomerPage:171 - Getting the customer information from Register Customer Page
+2018-07-03 16:05:00 INFO  MIP_RegisterCustomerPage:193 - Getting the Beneficiary information from Register Customer Page
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:336 - Expected and found cust_fname:DB cust_fname=jazz and Dashboard Customer fname=jazz
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:342 - Expected and found cust_sname:DB cust_sname=cust and Dashboard cust_sname=cust
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:349 - Expected and found cust_age:DB cust_age=26 and Dashboard cust_age=26
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:364 - Expected and found cust_gender:DB cust_gender=Female and Dashboard cust_gender=Female
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:371 - Expected and found NIC:DB NIC number=2131000568502 and Dashboard cust_NIC=2131000568502
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:379 - Expected and found ben_fname:DB ben_fname=prepaid and Dashboard ben_fname=prepaid
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:385 - Expected and found ben_sname:DB ben_sname=ben and Dashboard ben_sname=ben
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:391 - Expected and found ben_age:DB ben_age=27 and Dashboard ben_age=27
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:397 - Expected and found cust_relationship:DB cust_relationship=Mother and Dashboard cust_relationship=Mother
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:405 - Expected and found ben_msisdn:DB ben_msisdn=03026566002 and Dashboard ben_msisdn=03026566002
+2018-07-03 16:05:00 INFO  MIP_ChangeCoverLevel_Test:411 - Expected and found ben_gender:DB ben_gender=Female and Dashboard ben_gender=Female
+2018-07-03 16:05:00 INFO  MIP_RegisterCustomerPage:146 - Getting Registered offer of the customer
+2018-07-03 16:05:00 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:05:01 INFO  MIP_ChangeCoverLevel_Test:426 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-03 16:05:01 INFO  MIP_RegisterCustomer_Queries:131 - Executing getRegistrationSMS query
+2018-07-03 16:05:01 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:05:02 INFO  MIP_HomePage:73 - Clicking on Menu QA Confirmation
+2018-07-03 16:05:02 INFO  MIP_HomePage:79 - Clicked on Menu QA Confirmation
+2018-07-03 16:05:03 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016501
+2018-07-03 16:05:03 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:05:03 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:05:04 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:05:04 INFO  MIP_QAConfirmationPage:24 - Getting customer Information from QA Confirmation Page
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:549 - Expected and found cust_fname:DB cust_fname=jazz and Dashboard Customer fname=jazz
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:555 - Expected and found cust_sname:DB cust_sname=cust and Dashboard cust_sname=cust
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:562 - Expected and found cust_age:DB cust_age=26 and Dashboard cust_age=26
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:578 - Expected and found NIC:DB NIC number=2131000568502 and Dashboard cust_NIC=2131000568502
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:587 - Expected and found ben_fname:DB ben_fname=prepaid and Dashboard ben_fname=prepaid
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:593 - Expected and found ben_sname:DB ben_sname=ben and Dashboard ben_sname=ben
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:599 - Expected and found ben_age:DB ben_age=27 and Dashboard ben_age=27
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:605 - Expected and found cust_relationship:DB cust_relationship=Mother and Dashboard cust_relationship=Mother
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:616 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:624 - Expected and Found Reg Date details:DB reg_date=2018-07-03 16:05:12 reg_date =03/07/2018 16:05:12
+2018-07-03 16:05:05 INFO  MIP_ChangeCoverLevel_Test:632 - Expected and Found dereg details:DB dereg_by=DASHBOARD Reg_by =DASHBOARD
+2018-07-03 16:05:05 INFO  MIP_DeRegisterCustomer_Queries:80 - Getting Customer Confirmation Status
+2018-07-03 16:05:06 INFO  MIP_ChangeCoverLevel_Test:643 - Expected and Found confirmation_status:DB confirmation_status=Not Confirmed Dashboard confirmation_status =Not Confirmed
+2018-07-03 16:05:06 INFO  MIP_QAConfirmationPage:118 - Clicking on Confirm Button
+2018-07-03 16:05:07 INFO  MIP_DeRegisterCustomer_Queries:129 - Getting Customer Confirmation Status
+2018-07-03 16:05:08 INFO  MIP_DeRegisterCustomer_Queries:80 - Getting Customer Confirmation Status
+2018-07-03 16:05:09 INFO  MIP_ChangeCoverLevel_Test:671 - Expected and Found confirmation_status:DB confirmation_status=Confirmed Input confirmation_status =Confirmed
+2018-07-03 16:05:09 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-03 16:05:09 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-03 16:05:10 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016501
+2018-07-03 16:05:10 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:05:10 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:05:10 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:05:10 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:05:11 INFO  MIP_ChangeCoverLevelPage:70 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-03 16:05:11 INFO  MIP_CustomerManagementPage:152 - Clicking on Save Changes button
+2018-07-03 16:05:12 INFO  MIP_CustomerManagementPage:154 - Clicked on Save Changes button
+2018-07-03 16:05:13 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016501
+2018-07-03 16:05:13 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:05:13 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:05:13 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:05:13 INFO  MIP_ChangeCoverLevelPage:91 - Getiing Bima Accident protection cover level info in Update Cover Level Page
+2018-07-03 16:05:14 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:05:15 INFO  MIP_UpdateCoverLevel_Queries:46 - Executing checkRecordExistAfterDereg query
+2018-07-03 16:05:16 INFO  MIP_UpdateCoverLevel_Queries:71 - Executing the getupdateCoverLevelForConfirmedCustomer queries
+2018-07-03 16:05:16 INFO  MIP_ChangeCoverLevel_Test:714 - Old Offer Level: In Offer_Subscription=PKR 200,000 In Update Cover Level=200000.00
+2018-07-03 16:05:16 INFO  MIP_ChangeCoverLevel_Test:719 - New Offer Level: In Offer_Subscription=PKR 1000000 In Update Cover Level=1000000.00
+2018-07-03 16:05:16 INFO  MIP_ChangeCoverLevel_Test:724 - Current Cover Level After Cover Change in Change Cover Level Page: In Dashboard= 200000 Input Update Cover Level=PKR 200,000
+2018-07-03 16:05:16 INFO  MIP_UpdateCoverLevel_Queries:101 - Executing getChangeCoverLevelSMS query
+2018-07-03 16:05:17 INFO  MIP_ChangeCoverLevel_Test:762 - Expected and Found SMS:Expected=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 200000 say 1000000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein. Found SMS=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 200000 say 1000000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein.
+2018-07-03 16:05:17 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-03 16:05:17 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-03 16:05:18 INFO  MIP_RegisterCustomer_Queries:197 - Connecting to Warid Database
+2018-07-03 16:05:19 INFO  MIP_RegisterCustomer_Queries:214 - Connecting to Database is successfull
+2018-07-03 16:05:20 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016502
+2018-07-03 16:05:20 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:05:20 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:05:21 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:05:21 INFO  MIP_RegisterCustomerPage:37 - Entering the customer information:fname=jazz,snamecust,age=27,= gender=Male, dob=,custNIC=2131000568503
+2018-07-03 16:05:22 INFO  MIP_RegisterCustomerPage:52 - Entered the customer information
+2018-07-03 16:05:23 INFO  MIP_CustomerManagementPage:76 - Selecting  offer Bima Accident Protection
+2018-07-03 16:05:23 INFO  MIP_CustomerManagementPage:89 - Selected the offer Bima Accident Protection
+2018-07-03 16:05:23 INFO  MIP_RegisterCustomerPage:80 - Selecting Bima Life Benefit Level as PKR 400,000
+2018-07-03 16:05:24 INFO  MIP_RegisterCustomerPage:83 - Selected Bima Life Benefit Level as PKR 400,000
+2018-07-03 16:05:24 INFO  MIP_RegisterCustomerPage:101 - Entering the customer Beneficiary information:relationship=Father,fname=prepaid,sname=ben,age=28,ben_gender=Male,ben_msisdn=03026566002
+2018-07-03 16:05:24 INFO  MIP_RegisterCustomerPage:123 - Entered the customer Beneficiary information
+2018-07-03 16:05:24 INFO  MIP_CustomerManagementPage:115 - Clicking on Save button in Customer Registration page
+2018-07-03 16:05:27 INFO  MIP_RegisterCustomer_Queries:29 - Executing getCustomerDetails query
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:208 - Expected and found cust fname:DB Cust Fname=jazz and Input Cust Fname=jazz
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:213 - Expected and found cust_sname:DB cust_sname=cust and Input cust_sname=cust
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:219 - Expected and found  cust_age:DB cust_age=27 and Input cust_age=27
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:234 - Expected and found cust cust_gender:DB cust_gender=Male and Input cust_gender=Male
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:239 - Expected and found ben_fname:DB ben_fname=prepaid and ben_fname=prepaid
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:244 - Expected and found ben_sname:DB ben_sname=ben and Input ben_sname=ben
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:249 - Expected and found ben_age:DB ben_age=28 and Input ben_age=28
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:254 - Expected and found cust_relationship:DB cust_relationship=Father and Input cust_relationship=Father
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:261 - Expected and found ben_gender:DB ben_gender =Male and Input ben_gender=Male
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:267 - Expected and found ben_msisdn:DB ben_msisdn =03026566002 and Input ben_msisdn=03026566002
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:274 - Expected and found NIC:DB NIC number=2131000568503 and Input cust_NIC=2131000568503
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:280 - Expected and found Warid NIC:DB Warid NIC number=2131000568503 and Input Warid_NIC=2131000568503
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:289 - Expected and found Created By:DB Created By=DASHBOARD and Input Created By=DASHBOARD
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:294 - Expected and found Registered Date:DB Modified Date=2018-07-03 16:05:49 and Registered Date=2018-07-03
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:308 - Expected and found Prepost Status:DB Prepost Status =1 and Input Prepost Status=1
+2018-07-03 16:05:29 INFO  MIP_ChangeCoverLevel_Test:320 - Expected and found is_Warid Status:DB is_Warid =1 and Input is_warid status=1
+2018-07-03 16:05:29 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016502
+2018-07-03 16:05:29 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:05:29 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:05:30 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:05:30 INFO  MIP_RegisterCustomer_Queries:89 - Executing getRegisteredProduct query
+2018-07-03 16:05:36 INFO  MIP_RegisterCustomerPage:129 - Getting Registered offer of the customer
+2018-07-03 16:05:36 INFO  MIP_RegisterCustomerPage:171 - Getting the customer information from Register Customer Page
+2018-07-03 16:05:37 INFO  MIP_RegisterCustomerPage:193 - Getting the Beneficiary information from Register Customer Page
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:336 - Expected and found cust_fname:DB cust_fname=jazz and Dashboard Customer fname=jazz
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:342 - Expected and found cust_sname:DB cust_sname=cust and Dashboard cust_sname=cust
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:349 - Expected and found cust_age:DB cust_age=27 and Dashboard cust_age=27
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:364 - Expected and found cust_gender:DB cust_gender=Male and Dashboard cust_gender=Male
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:371 - Expected and found NIC:DB NIC number=2131000568503 and Dashboard cust_NIC=2131000568503
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:379 - Expected and found ben_fname:DB ben_fname=prepaid and Dashboard ben_fname=prepaid
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:385 - Expected and found ben_sname:DB ben_sname=ben and Dashboard ben_sname=ben
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:391 - Expected and found ben_age:DB ben_age=28 and Dashboard ben_age=28
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:397 - Expected and found cust_relationship:DB cust_relationship=Father and Dashboard cust_relationship=Father
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:405 - Expected and found ben_msisdn:DB ben_msisdn=03026566002 and Dashboard ben_msisdn=03026566002
+2018-07-03 16:05:37 INFO  MIP_ChangeCoverLevel_Test:411 - Expected and found ben_gender:DB ben_gender=Male and Dashboard ben_gender=Male
+2018-07-03 16:05:37 INFO  MIP_RegisterCustomerPage:146 - Getting Registered offer of the customer
+2018-07-03 16:05:37 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:05:38 INFO  MIP_ChangeCoverLevel_Test:426 - Expected and found life benefit_level:Input benefit_level=400000 and Dashboard benefit_level=PKR 400000
+2018-07-03 16:05:38 INFO  MIP_RegisterCustomer_Queries:131 - Executing getRegistrationSMS query
+2018-07-03 16:05:38 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:05:39 INFO  MIP_HomePage:73 - Clicking on Menu QA Confirmation
+2018-07-03 16:05:39 INFO  MIP_HomePage:79 - Clicked on Menu QA Confirmation
+2018-07-03 16:05:40 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016502
+2018-07-03 16:05:40 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:05:40 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:05:42 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:05:42 INFO  MIP_QAConfirmationPage:24 - Getting customer Information from QA Confirmation Page
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:549 - Expected and found cust_fname:DB cust_fname=jazz and Dashboard Customer fname=jazz
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:555 - Expected and found cust_sname:DB cust_sname=cust and Dashboard cust_sname=cust
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:562 - Expected and found cust_age:DB cust_age=27 and Dashboard cust_age=27
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:578 - Expected and found NIC:DB NIC number=2131000568503 and Dashboard cust_NIC=2131000568503
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:587 - Expected and found ben_fname:DB ben_fname=prepaid and Dashboard ben_fname=prepaid
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:593 - Expected and found ben_sname:DB ben_sname=ben and Dashboard ben_sname=ben
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:599 - Expected and found ben_age:DB ben_age=28 and Dashboard ben_age=28
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:605 - Expected and found cust_relationship:DB cust_relationship=Father and Dashboard cust_relationship=Father
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:616 - Expected and found life benefit_level:Input benefit_level=400000 and Dashboard benefit_level=PKR 400000
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:624 - Expected and Found Reg Date details:DB reg_date=2018-07-03 16:05:49 reg_date =03/07/2018 16:05:49
+2018-07-03 16:05:43 INFO  MIP_ChangeCoverLevel_Test:632 - Expected and Found dereg details:DB dereg_by=DASHBOARD Reg_by =DASHBOARD
+2018-07-03 16:05:43 INFO  MIP_DeRegisterCustomer_Queries:80 - Getting Customer Confirmation Status
+2018-07-03 16:05:44 INFO  MIP_ChangeCoverLevel_Test:643 - Expected and Found confirmation_status:DB confirmation_status=Not Confirmed Dashboard confirmation_status =Not Confirmed
+2018-07-03 16:05:44 INFO  MIP_QAConfirmationPage:118 - Clicking on Confirm Button
+2018-07-03 16:05:45 INFO  MIP_DeRegisterCustomer_Queries:150 - Executing confirmTheCustomer query
+2018-07-03 16:05:46 INFO  MIP_DeRegisterCustomer_Queries:172 - Confirmation is successfull
+2018-07-03 16:05:46 INFO  MIP_DeRegisterCustomer_Queries:129 - Getting Customer Confirmation Status
+2018-07-03 16:05:47 INFO  MIP_DeRegisterCustomer_Queries:80 - Getting Customer Confirmation Status
+2018-07-03 16:05:48 INFO  MIP_ChangeCoverLevel_Test:671 - Expected and Found confirmation_status:DB confirmation_status=Confirmed Input confirmation_status =Confirmed
+2018-07-03 16:05:48 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-03 16:05:48 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-03 16:05:49 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016502
+2018-07-03 16:05:49 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:05:49 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:05:49 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:05:49 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:05:51 INFO  MIP_ChangeCoverLevelPage:70 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-03 16:05:51 INFO  MIP_CustomerManagementPage:152 - Clicking on Save Changes button
+2018-07-03 16:05:51 INFO  MIP_CustomerManagementPage:154 - Clicked on Save Changes button
+2018-07-03 16:05:52 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016502
+2018-07-03 16:05:52 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:05:52 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:05:53 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:05:53 INFO  MIP_ChangeCoverLevelPage:91 - Getiing Bima Accident protection cover level info in Update Cover Level Page
+2018-07-03 16:05:54 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:05:55 INFO  MIP_UpdateCoverLevel_Queries:46 - Executing checkRecordExistAfterDereg query
+2018-07-03 16:05:56 INFO  MIP_UpdateCoverLevel_Queries:71 - Executing the getupdateCoverLevelForConfirmedCustomer queries
+2018-07-03 16:05:56 INFO  MIP_ChangeCoverLevel_Test:714 - Old Offer Level: In Offer_Subscription=PKR 400,000 In Update Cover Level=400000.00
+2018-07-03 16:05:56 INFO  MIP_ChangeCoverLevel_Test:719 - New Offer Level: In Offer_Subscription=PKR 200000 In Update Cover Level=200000.00
+2018-07-03 16:05:56 INFO  MIP_ChangeCoverLevel_Test:724 - Current Cover Level After Cover Change in Change Cover Level Page: In Dashboard= 400000 Input Update Cover Level=PKR 400,000
+2018-07-03 16:05:56 INFO  MIP_UpdateCoverLevel_Queries:101 - Executing getChangeCoverLevelSMS query
+2018-07-03 16:05:56 INFO  MIP_ChangeCoverLevel_Test:762 - Expected and Found SMS:Expected=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 400000 say 200000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein. Found SMS=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 400000 say 200000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein.
+2018-07-03 16:05:56 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-03 16:05:57 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-03 16:05:58 INFO  MIP_RegisterCustomer_Queries:197 - Connecting to Warid Database
+2018-07-03 16:05:59 INFO  MIP_RegisterCustomer_Queries:214 - Connecting to Database is successfull
+2018-07-03 16:06:00 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016503
+2018-07-03 16:06:00 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:06:00 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:06:02 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:06:02 INFO  MIP_RegisterCustomerPage:37 - Entering the customer information:fname=jazz,snamecust,age=,= gender=Male, dob=18/06/1990,custNIC=2131000568504
+2018-07-03 16:06:03 INFO  MIP_RegisterCustomerPage:355 - Selecting DOB in Customer Registration Page
+2018-07-03 16:06:05 INFO  MIP_RegisterCustomerPage:52 - Entered the customer information
+2018-07-03 16:06:06 INFO  MIP_CustomerManagementPage:76 - Selecting  offer Bima Accident Protection
+2018-07-03 16:06:06 INFO  MIP_CustomerManagementPage:89 - Selected the offer Bima Accident Protection
+2018-07-03 16:06:06 INFO  MIP_RegisterCustomerPage:80 - Selecting Bima Life Benefit Level as PKR 1,000,000
+2018-07-03 16:06:07 INFO  MIP_RegisterCustomerPage:83 - Selected Bima Life Benefit Level as PKR 1,000,000
+2018-07-03 16:06:07 INFO  MIP_RegisterCustomerPage:101 - Entering the customer Beneficiary information:relationship=Father,fname=prepaid,sname=ben,age=29,ben_gender=Male,ben_msisdn=03026566002
+2018-07-03 16:06:07 INFO  MIP_RegisterCustomerPage:123 - Entered the customer Beneficiary information
+2018-07-03 16:06:07 INFO  MIP_CustomerManagementPage:115 - Clicking on Save button in Customer Registration page
+2018-07-03 16:06:10 INFO  MIP_RegisterCustomer_Queries:29 - Executing getCustomerDetails query
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:208 - Expected and found cust fname:DB Cust Fname=jazz and Input Cust Fname=jazz
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:213 - Expected and found cust_sname:DB cust_sname=cust and Input cust_sname=cust
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:226 - Expected and found  cust_dob:DB cust_dob=18/06/1990 and Input cust_dob=18/06/1990
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:234 - Expected and found cust cust_gender:DB cust_gender=Male and Input cust_gender=Male
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:239 - Expected and found ben_fname:DB ben_fname=prepaid and ben_fname=prepaid
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:244 - Expected and found ben_sname:DB ben_sname=ben and Input ben_sname=ben
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:249 - Expected and found ben_age:DB ben_age=29 and Input ben_age=29
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:254 - Expected and found cust_relationship:DB cust_relationship=Father and Input cust_relationship=Father
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:261 - Expected and found ben_gender:DB ben_gender =Male and Input ben_gender=Male
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:267 - Expected and found ben_msisdn:DB ben_msisdn =03026566002 and Input ben_msisdn=03026566002
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:274 - Expected and found NIC:DB NIC number=2131000568504 and Input cust_NIC=2131000568504
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:280 - Expected and found Warid NIC:DB Warid NIC number=2131000568504 and Input Warid_NIC=2131000568504
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:289 - Expected and found Created By:DB Created By=DASHBOARD and Input Created By=DASHBOARD
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:294 - Expected and found Registered Date:DB Modified Date=2018-07-03 16:06:32 and Registered Date=2018-07-03
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:308 - Expected and found Prepost Status:DB Prepost Status =1 and Input Prepost Status=1
+2018-07-03 16:06:12 INFO  MIP_ChangeCoverLevel_Test:320 - Expected and found is_Warid Status:DB is_Warid =1 and Input is_warid status=1
+2018-07-03 16:06:12 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016503
+2018-07-03 16:06:12 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:06:12 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:06:14 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:06:14 INFO  MIP_RegisterCustomer_Queries:89 - Executing getRegisteredProduct query
+2018-07-03 16:06:21 INFO  MIP_RegisterCustomerPage:129 - Getting Registered offer of the customer
+2018-07-03 16:06:21 INFO  MIP_RegisterCustomerPage:171 - Getting the customer information from Register Customer Page
+2018-07-03 16:06:21 INFO  MIP_RegisterCustomerPage:193 - Getting the Beneficiary information from Register Customer Page
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:336 - Expected and found cust_fname:DB cust_fname=jazz and Dashboard Customer fname=jazz
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:342 - Expected and found cust_sname:DB cust_sname=cust and Dashboard cust_sname=cust
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:357 - Expected and found cust_dob:DB cust_age=18/06/1990 and Dashboard cust_age=18/06/1990
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:364 - Expected and found cust_gender:DB cust_gender=Male and Dashboard cust_gender=Male
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:371 - Expected and found NIC:DB NIC number=2131000568504 and Dashboard cust_NIC=2131000568504
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:379 - Expected and found ben_fname:DB ben_fname=prepaid and Dashboard ben_fname=prepaid
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:385 - Expected and found ben_sname:DB ben_sname=ben and Dashboard ben_sname=ben
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:391 - Expected and found ben_age:DB ben_age=29 and Dashboard ben_age=29
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:397 - Expected and found cust_relationship:DB cust_relationship=Father and Dashboard cust_relationship=Father
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:405 - Expected and found ben_msisdn:DB ben_msisdn=03026566002 and Dashboard ben_msisdn=03026566002
+2018-07-03 16:06:21 INFO  MIP_ChangeCoverLevel_Test:411 - Expected and found ben_gender:DB ben_gender=Male and Dashboard ben_gender=Male
+2018-07-03 16:06:21 INFO  MIP_RegisterCustomerPage:146 - Getting Registered offer of the customer
+2018-07-03 16:06:21 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:06:23 INFO  MIP_ChangeCoverLevel_Test:426 - Expected and found life benefit_level:Input benefit_level=1000000 and Dashboard benefit_level=PKR 1000000
+2018-07-03 16:06:23 INFO  MIP_RegisterCustomer_Queries:131 - Executing getRegistrationSMS query
+2018-07-03 16:06:23 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:06:24 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-03 16:06:24 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-03 16:06:25 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016503
+2018-07-03 16:06:25 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:06:25 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:06:25 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:06:25 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:06:27 INFO  MIP_ChangeCoverLevelPage:70 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-03 16:06:27 INFO  MIP_CustomerManagementPage:152 - Clicking on Save Changes button
+2018-07-03 16:06:28 INFO  MIP_CustomerManagementPage:154 - Clicked on Save Changes button
+2018-07-03 16:06:29 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016503
+2018-07-03 16:06:29 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:06:29 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:06:29 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:06:29 INFO  MIP_ChangeCoverLevelPage:91 - Getiing Bima Accident protection cover level info in Update Cover Level Page
+2018-07-03 16:06:31 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:06:31 INFO  MIP_UpdateCoverLevel_Queries:46 - Executing checkRecordExistAfterDereg query
+2018-07-03 16:06:32 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:06:33 INFO  MIP_ChangeCoverLevel_Test:742 - Updated Offer Level: In Offer_Subscription=400000 Input Update Cover Level=PKR 400000
+2018-07-03 16:06:33 INFO  MIP_ChangeCoverLevel_Test:748 - Current Cover Level After Cover Change in Change Cover Level Page: In Dashboard= 400000 Input Update Cover Level=PKR 400000
+2018-07-03 16:06:33 INFO  MIP_UpdateCoverLevel_Queries:101 - Executing getChangeCoverLevelSMS query
+2018-07-03 16:06:33 INFO  MIP_ChangeCoverLevel_Test:762 - Expected and Found SMS:Expected=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 1000000 say 400000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein. Found SMS=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 1000000 say 400000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein.
+2018-07-03 16:06:33 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-03 16:06:33 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-03 16:06:34 INFO  MIP_RegisterCustomer_Queries:197 - Connecting to Warid Database
+2018-07-03 16:06:35 INFO  MIP_RegisterCustomer_Queries:214 - Connecting to Database is successfull
+2018-07-03 16:06:36 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016504
+2018-07-03 16:06:36 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:06:36 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:06:37 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:06:38 INFO  MIP_RegisterCustomerPage:37 - Entering the customer information:fname=jazz,snamecust,age=27,= gender=Male, dob=,custNIC=2131000568505
+2018-07-03 16:06:38 INFO  MIP_RegisterCustomerPage:52 - Entered the customer information
+2018-07-03 16:06:39 INFO  MIP_CustomerManagementPage:76 - Selecting  offer Bima Accident Protection
+2018-07-03 16:06:40 INFO  MIP_CustomerManagementPage:89 - Selected the offer Bima Accident Protection
+2018-07-03 16:06:40 INFO  MIP_RegisterCustomerPage:80 - Selecting Bima Life Benefit Level as PKR 200,000
+2018-07-03 16:06:41 INFO  MIP_RegisterCustomerPage:83 - Selected Bima Life Benefit Level as PKR 200,000
+2018-07-03 16:06:41 INFO  MIP_RegisterCustomerPage:101 - Entering the customer Beneficiary information:relationship=Father,fname=prepaid,sname=ben,age=28,ben_gender=Male,ben_msisdn=03026566002
+2018-07-03 16:06:41 INFO  MIP_RegisterCustomerPage:123 - Entered the customer Beneficiary information
+2018-07-03 16:06:41 INFO  MIP_CustomerManagementPage:115 - Clicking on Save button in Customer Registration page
+2018-07-03 16:06:45 INFO  MIP_RegisterCustomer_Queries:29 - Executing getCustomerDetails query
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:208 - Expected and found cust fname:DB Cust Fname=jazz and Input Cust Fname=jazz
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:213 - Expected and found cust_sname:DB cust_sname=cust and Input cust_sname=cust
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:219 - Expected and found  cust_age:DB cust_age=27 and Input cust_age=27
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:234 - Expected and found cust cust_gender:DB cust_gender=Male and Input cust_gender=Male
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:239 - Expected and found ben_fname:DB ben_fname=prepaid and ben_fname=prepaid
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:244 - Expected and found ben_sname:DB ben_sname=ben and Input ben_sname=ben
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:249 - Expected and found ben_age:DB ben_age=28 and Input ben_age=28
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:254 - Expected and found cust_relationship:DB cust_relationship=Father and Input cust_relationship=Father
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:261 - Expected and found ben_gender:DB ben_gender =Male and Input ben_gender=Male
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:267 - Expected and found ben_msisdn:DB ben_msisdn =03026566002 and Input ben_msisdn=03026566002
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:274 - Expected and found NIC:DB NIC number=2131000568505 and Input cust_NIC=2131000568505
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:280 - Expected and found Warid NIC:DB Warid NIC number=2131000568505 and Input Warid_NIC=2131000568505
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:289 - Expected and found Created By:DB Created By=DASHBOARD and Input Created By=DASHBOARD
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:294 - Expected and found Registered Date:DB Modified Date=2018-07-03 16:07:07 and Registered Date=2018-07-03
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:308 - Expected and found Prepost Status:DB Prepost Status =0 and Input Prepost Status=0
+2018-07-03 16:06:48 INFO  MIP_ChangeCoverLevel_Test:320 - Expected and found is_Warid Status:DB is_Warid =1 and Input is_warid status=1
+2018-07-03 16:06:48 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016504
+2018-07-03 16:06:48 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:06:48 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:06:49 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:06:49 INFO  MIP_RegisterCustomer_Queries:89 - Executing getRegisteredProduct query
+2018-07-03 16:06:57 INFO  MIP_RegisterCustomerPage:129 - Getting Registered offer of the customer
+2018-07-03 16:06:57 INFO  MIP_RegisterCustomerPage:171 - Getting the customer information from Register Customer Page
+2018-07-03 16:06:57 INFO  MIP_RegisterCustomerPage:193 - Getting the Beneficiary information from Register Customer Page
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:336 - Expected and found cust_fname:DB cust_fname=jazz and Dashboard Customer fname=jazz
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:342 - Expected and found cust_sname:DB cust_sname=cust and Dashboard cust_sname=cust
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:349 - Expected and found cust_age:DB cust_age=27 and Dashboard cust_age=27
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:364 - Expected and found cust_gender:DB cust_gender=Male and Dashboard cust_gender=Male
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:371 - Expected and found NIC:DB NIC number=2131000568505 and Dashboard cust_NIC=2131000568505
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:379 - Expected and found ben_fname:DB ben_fname=prepaid and Dashboard ben_fname=prepaid
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:385 - Expected and found ben_sname:DB ben_sname=ben and Dashboard ben_sname=ben
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:391 - Expected and found ben_age:DB ben_age=28 and Dashboard ben_age=28
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:397 - Expected and found cust_relationship:DB cust_relationship=Father and Dashboard cust_relationship=Father
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:405 - Expected and found ben_msisdn:DB ben_msisdn=03026566002 and Dashboard ben_msisdn=03026566002
+2018-07-03 16:06:57 INFO  MIP_ChangeCoverLevel_Test:411 - Expected and found ben_gender:DB ben_gender=Male and Dashboard ben_gender=Male
+2018-07-03 16:06:57 INFO  MIP_RegisterCustomerPage:146 - Getting Registered offer of the customer
+2018-07-03 16:06:57 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:06:59 INFO  MIP_ChangeCoverLevel_Test:426 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-03 16:06:59 INFO  MIP_RegisterCustomer_Queries:131 - Executing getRegistrationSMS query
+2018-07-03 16:06:59 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:07:00 INFO  MIP_HomePage:73 - Clicking on Menu QA Confirmation
+2018-07-03 16:07:00 INFO  MIP_HomePage:79 - Clicked on Menu QA Confirmation
+2018-07-03 16:07:01 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016504
+2018-07-03 16:07:01 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:07:01 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:07:02 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:07:02 INFO  MIP_QAConfirmationPage:24 - Getting customer Information from QA Confirmation Page
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:549 - Expected and found cust_fname:DB cust_fname=jazz and Dashboard Customer fname=jazz
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:555 - Expected and found cust_sname:DB cust_sname=cust and Dashboard cust_sname=cust
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:562 - Expected and found cust_age:DB cust_age=27 and Dashboard cust_age=27
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:578 - Expected and found NIC:DB NIC number=2131000568505 and Dashboard cust_NIC=2131000568505
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:587 - Expected and found ben_fname:DB ben_fname=prepaid and Dashboard ben_fname=prepaid
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:593 - Expected and found ben_sname:DB ben_sname=ben and Dashboard ben_sname=ben
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:599 - Expected and found ben_age:DB ben_age=28 and Dashboard ben_age=28
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:605 - Expected and found cust_relationship:DB cust_relationship=Father and Dashboard cust_relationship=Father
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:616 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:624 - Expected and Found Reg Date details:DB reg_date=2018-07-03 16:07:07 reg_date =03/07/2018 16:07:07
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:632 - Expected and Found dereg details:DB dereg_by=DASHBOARD Reg_by =DASHBOARD
+2018-07-03 16:07:03 INFO  MIP_DeRegisterCustomer_Queries:80 - Getting Customer Confirmation Status
+2018-07-03 16:07:03 INFO  MIP_ChangeCoverLevel_Test:643 - Expected and Found confirmation_status:DB confirmation_status=Not Confirmed Dashboard confirmation_status =Not Confirmed
+2018-07-03 16:07:03 INFO  MIP_QAConfirmationPage:118 - Clicking on Confirm Button
+2018-07-03 16:07:04 INFO  MIP_DeRegisterCustomer_Queries:150 - Executing confirmTheCustomer query
+2018-07-03 16:07:05 INFO  MIP_DeRegisterCustomer_Queries:172 - Confirmation is successfull
+2018-07-03 16:07:05 INFO  MIP_DeRegisterCustomer_Queries:129 - Getting Customer Confirmation Status
+2018-07-03 16:07:06 INFO  MIP_DeRegisterCustomer_Queries:80 - Getting Customer Confirmation Status
+2018-07-03 16:07:07 INFO  MIP_ChangeCoverLevel_Test:671 - Expected and Found confirmation_status:DB confirmation_status=Confirmed Input confirmation_status =Confirmed
+2018-07-03 16:07:07 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-03 16:07:07 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-03 16:07:08 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016504
+2018-07-03 16:07:08 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:07:08 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:07:08 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:07:08 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:07:09 INFO  MIP_ChangeCoverLevelPage:70 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-03 16:07:09 INFO  MIP_CustomerManagementPage:152 - Clicking on Save Changes button
+2018-07-03 16:07:10 INFO  MIP_CustomerManagementPage:154 - Clicked on Save Changes button
+2018-07-03 16:07:11 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016504
+2018-07-03 16:07:11 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:07:11 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:07:11 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:07:11 INFO  MIP_ChangeCoverLevelPage:91 - Getiing Bima Accident protection cover level info in Update Cover Level Page
+2018-07-03 16:07:12 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:07:13 INFO  MIP_UpdateCoverLevel_Queries:46 - Executing checkRecordExistAfterDereg query
+2018-07-03 16:07:14 INFO  MIP_UpdateCoverLevel_Queries:71 - Executing the getupdateCoverLevelForConfirmedCustomer queries
+2018-07-03 16:07:15 INFO  MIP_ChangeCoverLevel_Test:714 - Old Offer Level: In Offer_Subscription=PKR 200,000 In Update Cover Level=200000.00
+2018-07-03 16:07:15 INFO  MIP_ChangeCoverLevel_Test:719 - New Offer Level: In Offer_Subscription=PKR 1000000 In Update Cover Level=1000000.00
+2018-07-03 16:07:15 INFO  MIP_ChangeCoverLevel_Test:724 - Current Cover Level After Cover Change in Change Cover Level Page: In Dashboard= 200000 Input Update Cover Level=PKR 200,000
+2018-07-03 16:07:15 INFO  MIP_UpdateCoverLevel_Queries:101 - Executing getChangeCoverLevelSMS query
+2018-07-03 16:07:15 INFO  MIP_ChangeCoverLevel_Test:762 - Expected and Found SMS:Expected=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 200000 say 1000000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein. Found SMS=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 200000 say 1000000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein.
+2018-07-03 16:07:15 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-03 16:07:15 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-03 16:07:16 INFO  MIP_RegisterCustomer_Queries:197 - Connecting to Warid Database
+2018-07-03 16:07:17 INFO  MIP_RegisterCustomer_Queries:214 - Connecting to Database is successfull
+2018-07-03 16:07:18 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016505
+2018-07-03 16:07:18 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:07:18 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:07:19 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:07:19 INFO  MIP_RegisterCustomerPage:37 - Entering the customer information:fname=jazz,snamecust,age=,= gender=Male, dob=18/06/1990,custNIC=2131000568506
+2018-07-03 16:07:20 INFO  MIP_RegisterCustomerPage:355 - Selecting DOB in Customer Registration Page
+2018-07-03 16:07:22 INFO  MIP_RegisterCustomerPage:52 - Entered the customer information
+2018-07-03 16:07:23 INFO  MIP_CustomerManagementPage:76 - Selecting  offer Bima Accident Protection
+2018-07-03 16:07:23 INFO  MIP_CustomerManagementPage:89 - Selected the offer Bima Accident Protection
+2018-07-03 16:07:23 INFO  MIP_RegisterCustomerPage:80 - Selecting Bima Life Benefit Level as PKR 400,000
+2018-07-03 16:07:24 INFO  MIP_RegisterCustomerPage:83 - Selected Bima Life Benefit Level as PKR 400,000
+2018-07-03 16:07:24 INFO  MIP_RegisterCustomerPage:101 - Entering the customer Beneficiary information:relationship=Father,fname=prepaid,sname=ben,age=29,ben_gender=Male,ben_msisdn=03026566002
+2018-07-03 16:07:25 INFO  MIP_RegisterCustomerPage:123 - Entered the customer Beneficiary information
+2018-07-03 16:07:25 INFO  MIP_CustomerManagementPage:115 - Clicking on Save button in Customer Registration page
+2018-07-03 16:07:27 INFO  MIP_RegisterCustomer_Queries:29 - Executing getCustomerDetails query
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:208 - Expected and found cust fname:DB Cust Fname=jazz and Input Cust Fname=jazz
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:213 - Expected and found cust_sname:DB cust_sname=cust and Input cust_sname=cust
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:226 - Expected and found  cust_dob:DB cust_dob=18/06/1990 and Input cust_dob=18/06/1990
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:234 - Expected and found cust cust_gender:DB cust_gender=Male and Input cust_gender=Male
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:239 - Expected and found ben_fname:DB ben_fname=prepaid and ben_fname=prepaid
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:244 - Expected and found ben_sname:DB ben_sname=ben and Input ben_sname=ben
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:249 - Expected and found ben_age:DB ben_age=29 and Input ben_age=29
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:254 - Expected and found cust_relationship:DB cust_relationship=Father and Input cust_relationship=Father
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:261 - Expected and found ben_gender:DB ben_gender =Male and Input ben_gender=Male
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:267 - Expected and found ben_msisdn:DB ben_msisdn =03026566002 and Input ben_msisdn=03026566002
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:274 - Expected and found NIC:DB NIC number=2131000568506 and Input cust_NIC=2131000568506
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:280 - Expected and found Warid NIC:DB Warid NIC number=2131000568506 and Input Warid_NIC=2131000568506
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:289 - Expected and found Created By:DB Created By=DASHBOARD and Input Created By=DASHBOARD
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:294 - Expected and found Registered Date:DB Modified Date=2018-07-03 16:07:49 and Registered Date=2018-07-03
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:308 - Expected and found Prepost Status:DB Prepost Status =0 and Input Prepost Status=0
+2018-07-03 16:07:29 INFO  MIP_ChangeCoverLevel_Test:320 - Expected and found is_Warid Status:DB is_Warid =1 and Input is_warid status=1
+2018-07-03 16:07:30 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016505
+2018-07-03 16:07:30 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:07:30 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:07:31 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:07:31 INFO  MIP_RegisterCustomer_Queries:89 - Executing getRegisteredProduct query
+2018-07-03 16:07:39 INFO  MIP_RegisterCustomerPage:129 - Getting Registered offer of the customer
+2018-07-03 16:07:39 INFO  MIP_RegisterCustomerPage:171 - Getting the customer information from Register Customer Page
+2018-07-03 16:07:39 INFO  MIP_RegisterCustomerPage:193 - Getting the Beneficiary information from Register Customer Page
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:336 - Expected and found cust_fname:DB cust_fname=jazz and Dashboard Customer fname=jazz
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:342 - Expected and found cust_sname:DB cust_sname=cust and Dashboard cust_sname=cust
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:357 - Expected and found cust_dob:DB cust_age=18/06/1990 and Dashboard cust_age=18/06/1990
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:364 - Expected and found cust_gender:DB cust_gender=Male and Dashboard cust_gender=Male
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:371 - Expected and found NIC:DB NIC number=2131000568506 and Dashboard cust_NIC=2131000568506
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:379 - Expected and found ben_fname:DB ben_fname=prepaid and Dashboard ben_fname=prepaid
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:385 - Expected and found ben_sname:DB ben_sname=ben and Dashboard ben_sname=ben
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:391 - Expected and found ben_age:DB ben_age=29 and Dashboard ben_age=29
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:397 - Expected and found cust_relationship:DB cust_relationship=Father and Dashboard cust_relationship=Father
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:405 - Expected and found ben_msisdn:DB ben_msisdn=03026566002 and Dashboard ben_msisdn=03026566002
+2018-07-03 16:07:39 INFO  MIP_ChangeCoverLevel_Test:411 - Expected and found ben_gender:DB ben_gender=Male and Dashboard ben_gender=Male
+2018-07-03 16:07:39 INFO  MIP_RegisterCustomerPage:146 - Getting Registered offer of the customer
+2018-07-03 16:07:39 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:07:41 INFO  MIP_ChangeCoverLevel_Test:426 - Expected and found life benefit_level:Input benefit_level=400000 and Dashboard benefit_level=PKR 400000
+2018-07-03 16:07:41 INFO  MIP_RegisterCustomer_Queries:131 - Executing getRegistrationSMS query
+2018-07-03 16:07:41 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:07:42 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-03 16:07:42 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-03 16:07:43 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016505
+2018-07-03 16:07:43 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:07:43 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:07:43 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:07:43 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:07:45 INFO  MIP_ChangeCoverLevelPage:70 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-03 16:07:45 INFO  MIP_CustomerManagementPage:152 - Clicking on Save Changes button
+2018-07-03 16:07:46 INFO  MIP_CustomerManagementPage:154 - Clicked on Save Changes button
+2018-07-03 16:07:46 INFO  MIP_CustomerManagementPage:49 - Entering msisdn value 03020016505
+2018-07-03 16:07:46 INFO  MIP_CustomerManagementPage:60 - Entered msisdn value
+2018-07-03 16:07:46 INFO  MIP_CustomerManagementPage:64 - clicking on search Icon
+2018-07-03 16:07:47 INFO  MIP_CustomerManagementPage:66 - Clicked on Search Icon
+2018-07-03 16:07:47 INFO  MIP_ChangeCoverLevelPage:91 - Getiing Bima Accident protection cover level info in Update Cover Level Page
+2018-07-03 16:07:48 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getConfirmedStatus queries
+2018-07-03 16:07:49 INFO  MIP_UpdateCoverLevel_Queries:46 - Executing checkRecordExistAfterDereg query
+2018-07-03 16:07:50 INFO  MIP_RegisterCustomer_Queries:109 - Executing getOfferCover query
+2018-07-03 16:07:50 INFO  MIP_ChangeCoverLevel_Test:742 - Updated Offer Level: In Offer_Subscription=2000000 Input Update Cover Level=PKR 2000000
+2018-07-03 16:07:50 INFO  MIP_ChangeCoverLevel_Test:748 - Current Cover Level After Cover Change in Change Cover Level Page: In Dashboard= 2000000 Input Update Cover Level=PKR 2000000
+2018-07-03 16:07:50 INFO  MIP_UpdateCoverLevel_Queries:101 - Executing getChangeCoverLevelSMS query
+2018-07-03 16:07:50 INFO  MIP_ChangeCoverLevel_Test:762 - Expected and Found SMS:Expected=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 400000 say 2000000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein. Found SMS=Muaziz Sarif, hum nay aap ki darkhuwast par Bima hadsati tahafuz cover 400000 say 2000000 kar dia hai. Agar yeh drust he to humay  9878 per SMS karein.
+2018-07-03 16:07:50 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-03 16:08:00 INFO  MIP_BrowserFactory:55 - browser closed
