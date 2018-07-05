@@ -86,11 +86,11 @@ public class MIP_ChangePasswordPage extends MIP_BasePage {
 		return this;
 	}
 
-	public MIP_SearchCustomerPage confirmChangePass(String option) {
+/*	public MIP_SearchCustomerPage confirmChangePass(String option) {
 		logger.info("Confirming the ChangePassword pop-up Page");
 		this.confirmPopUp(option);
 		return new MIP_SearchCustomerPage(driver);
-	}
+	}*/
 
 	public String getSuccessMsg() {
 		logger.info("Getting Success message in ChangePasseord Page");

@@ -88,7 +88,7 @@ public class MIP_CustRegistration_Test {
 		}
 	}
 
-	@Test(priority = 1, enabled = true, testName = "RegisterCustomer", dataProvider = "RegisterCustomer", dataProviderClass = MIP_RegisterCustomer_TestData.class)
+	@Test(priority = 1, enabled = false, testName = "RegisterCustomer", dataProvider = "RegisterCustomer", dataProviderClass = MIP_RegisterCustomer_TestData.class)
 	public void registrationTest(String testcase, String mno, String msisdn,
 			String prepostStatus, String prd_to_register,
 			String accident_level, String cust_fname, String cust_sname,
@@ -482,7 +482,7 @@ public class MIP_CustRegistration_Test {
 		}
 	}
 
-	@Test(priority = 1, enabled = true, testName = "changeCustomerDetails", dataProvider = "changeCustomerDetails", dataProviderClass = MIP_RegisterCustomer_TestData.class)
+	@Test(priority = 1, enabled = false, testName = "changeCustomerDetails", dataProvider = "changeCustomerDetails", dataProviderClass = MIP_RegisterCustomer_TestData.class)
 	public void changeCustomerDetails(String testcase, String msisdn,
 			String cust_fname, String cust_sname, String age, String cust_cni,
 			String dob, String gender, String relationship, String ben_fname,

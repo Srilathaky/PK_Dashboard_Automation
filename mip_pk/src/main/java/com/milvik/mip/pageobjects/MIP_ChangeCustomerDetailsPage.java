@@ -68,7 +68,7 @@ public class MIP_ChangeCustomerDetailsPage extends MIP_CustomerManagementPage {
 			ele.clear();
 			ele.sendKeys(age);
 		}
-		if (new Integer(age) <= BENEFICIARYAGELESSFORLEAGALGUARDIAN) {
+		if (new Integer(age) <= 16) {
 			this.waitForElementToVisible(By.id("insRelSurName")).click();
 			if (!guardian_name.equals("")) {
 				ele = this.waitForElementToVisible(By.id("lgName"));
@@ -123,7 +123,7 @@ public class MIP_ChangeCustomerDetailsPage extends MIP_CustomerManagementPage {
 				this.waitForElementToVisible(
 						By.xpath("//input[@id='insRelAge']")).getAttribute(
 						"value"));
-		if (new Integer(ben_details.get("ben_age")) <= BENEFICIARYAGELESSFORLEAGALGUARDIAN) {
+		if (new Integer(ben_details.get("ben_age")) <= 16) {
 			ben_details.put(
 					"lg_name",
 					this.waitForElementToVisible(

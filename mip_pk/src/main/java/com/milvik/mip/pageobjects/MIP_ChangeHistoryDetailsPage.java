@@ -62,7 +62,7 @@ public class MIP_ChangeHistoryDetailsPage extends MIP_CustomerManagementPage {
 						this.waitForElementToVisible(
 								By.xpath("//input[@id='insRelAge'][@readonly='readonly']"))
 								.getAttribute("value"));
-		if (new Integer(ben_details.get("ben_age")) <= BENEFICIARYAGELESSFORLEAGALGUARDIAN) {
+		if (new Integer(ben_details.get("ben_age")) <= 16) {
 			ben_details
 					.put("lg_name",
 							this.waitForElementToVisible(

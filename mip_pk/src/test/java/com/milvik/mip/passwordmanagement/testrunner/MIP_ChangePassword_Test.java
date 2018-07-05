@@ -144,8 +144,8 @@ public class MIP_ChangePassword_Test {
 			Assert.assertTrue(changepasspage.getOldPassword().equals(""));
 			Assert.assertTrue(changepasspage.getNewPassword().equals(""));
 			Assert.assertTrue(changepasspage.getConfPassword().equals(""));
-			changepasspage.enterPassworddata(oldpass, newpass, confpass)
-					.clickOnSave().confirmChangePass("yes");
+		/*	changepasspage.enterPassworddata(oldpass, newpass, confpass)
+					.clickOnSave().confirmChangePass("yes");*/
 			Assert.assertTrue(changepasspage.getSuccessMsg().trim()
 					.replaceAll("\\s", "")
 					.equalsIgnoreCase(errmsg.trim().replaceAll("\\s", "")));

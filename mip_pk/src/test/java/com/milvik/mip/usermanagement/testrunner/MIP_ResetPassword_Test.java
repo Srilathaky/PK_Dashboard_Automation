@@ -129,9 +129,9 @@ public class MIP_ResetPassword_Test {
 			Assert.assertTrue(changepass.getValidationMsg().trim()
 					.replaceAll("\\s", "")
 					.equalsIgnoreCase(errmsg.trim().replaceAll("\\s", "")));
-			changepass.clickOnClear()
+			/*changepass.clickOnClear()
 					.enterPassworddata(defaultPass, validPass, validPass)
-					.clickOnSave().confirmChangePass("yes");
+					.clickOnSave().confirmChangePass("yes");*/
 			Assert.assertTrue(changepass.getSuccessMsg().trim()
 					.equalsIgnoreCase(successMsg.trim()));
 			MIP_LaunchApplication.openApplication(

@@ -76,7 +76,7 @@ public class MIP_Homepage_CustomerStatistics_Queries {
 								+ username
 								+ "' and os.created_date between concat(year(CURRENT_DATE),'-',month(CURRENT_DATE),'-01') "
 								+ " and concat(year(CURRENT_DATE),'-',month(CURRENT_DATE)+1,'-01') and od.offer_name='"
-								+ MIP_CustomerManagementPage.BIMALIFE + "';");
+								+ MIP_CustomerManagementPage.BIMA_ACCIDENT_PROTECTION + "';");
 				result.next();
 				details.put("XL_Reg", result.getString("count"));
 				result = MIP_DataBaseConnection.st
@@ -86,7 +86,7 @@ public class MIP_Homepage_CustomerStatistics_Queries {
 								+ username
 								+ "' and os.created_date between concat(year(CURRENT_DATE),'-',month(CURRENT_DATE),'-01') "
 								+ " and concat(year(CURRENT_DATE),'-',month(CURRENT_DATE)+1,'-01') and od.offer_name='"
-								+ MIP_CustomerManagementPage.BIMALIFE
+								+ MIP_CustomerManagementPage.BIMA_ACCIDENT_PROTECTION
 								+ "' and os.is_confirmed=1;");
 				result.next();
 				details.put("XL_Confirmed", result.getString("count"));
